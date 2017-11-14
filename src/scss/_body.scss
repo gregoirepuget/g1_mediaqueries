@@ -18,7 +18,7 @@ body{
     width:$stepSize1;
   }
 
-  @media screen and (max-width:$stepSize2)
+  @media screen and (max-width:$stepSize1)
   {
     width:100%;
   }
