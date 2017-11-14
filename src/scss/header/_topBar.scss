@@ -1,0 +1,17 @@
+.header__topBar{
+    background:$grey-dark;
+
+  .container{
+
+    h1{
+      display: inline-block;
+      font-size:1.8rem;
+      color:$white;
+      font-weight:normal;
+      margin:0;
+      vertical-align: top;
+      padding: 20px 10px;
+    }
+  }
+
+}
