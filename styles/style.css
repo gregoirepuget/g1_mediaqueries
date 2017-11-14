@@ -1,3 +1,14 @@
-*{
-  color:red;
-}
+@font-face {
+  font-family: 'nexa';
+  src: url("../fonts/nexa-bold-webfont.woff2") format("woff2"), url("../fonts/nexa-bold-webfont.woff") format("woff"), url("../fonts/nexa-bold.otf") format("otf");
+  font-weight: bold;
+  font-style: normal; }
+@font-face {
+  font-family: 'nexa';
+  src: url("../fonts/nexa-light-webfont.woff2") format("woff2"), url("../fonts/nexa-light-webfont.woff") format("woff"), url("../fonts/nexa-light.otf") format("otf");
+  font-weight: normal;
+  font-style: normal; }
+* {
+  color: green; }
+
+/*# sourceMappingURL=style.css.map */
