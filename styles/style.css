@@ -8,7 +8,24 @@
   src: url("../fonts/nexa-light-webfont.woff2") format("woff2"), url("../fonts/nexa-light-webfont.woff") format("woff"), url("../fonts/nexa-light.otf") format("otf");
   font-weight: normal;
   font-style: normal; }
-* {
-  color: green; }
+html {
+  font-size: 62.5%;
+  box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: "nexa", "Arial", sans-serif;
+  color: #646464;
+  background: #ebebeb; }
+
+.container {
+  width: 940px;
+  margin: 0 auto; }
+  @media screen and (min-width: 640px) and (max-width: 940px) {
+    .container {
+      width: 640px; } }
+  @media screen and (max-width: 940px) {
+    .container {
+      width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -20,9 +20,6 @@ $stepSize2:940px;
 
 }
 
-
-
-
 @font-face {
     font-family: 'nexa';
     src: url('../fonts/nexa-light-webfont.woff2') format('woff2'),
@@ -31,3 +28,7 @@ $stepSize2:940px;
     font-weight: normal;
     font-style: normal;
 }
+
+$primary-font: "nexa", "Arial", sans-serif;
+$primary-color: $orange;
+$secondary-font: $grey-font;
